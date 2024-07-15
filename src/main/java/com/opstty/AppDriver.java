@@ -13,6 +13,7 @@ public class AppDriver {
             programDriver.addClass("districts", Districts.class, "A map/reduce program that counts the distinct districts in which there are remarkable trees.");
             programDriver.addClass("species", Species.class, "A map/reduce program that displays the different species of trees.");
             programDriver.addClass("kinds", Kinds.class, "A map/reduce program that displays the number of trees by kinds.");
+            programDriver.addClass("tallest", Tallest.class, "A map/reduce program that displays the tallest tree of each kind.");
 
             exitCode = programDriver.run(argv);
         } catch (Throwable throwable) {
